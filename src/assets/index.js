@@ -25,6 +25,7 @@ import criavz from "./company/criavz.webp";
 import nike from "./nike.png";
 import iphone from "./iphone.png";
 import brainwave from "./brainwave.png";
+import camping from "./Camping.png";
 
 export {
   logo,
@@ -51,4 +52,5 @@ export {
   nike,
   iphone,
   brainwave,
+  camping,
 };

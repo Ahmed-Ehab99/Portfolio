@@ -12,6 +12,7 @@ import {
   nike,
   iphone,
   brainwave,
+  camping,
 } from "../assets";
 
 export const navLinks = [
@@ -171,7 +172,8 @@ const projects = [
   },
   {
     name: "Nike Store",
-    description: "A Landing Page for Nike Company with alot of Shoes and Perfect Design.",
+    description:
+      "A Landing Page for Nike Company with alot of Shoes and Perfect Design.",
     tags: [
       {
         name: "React.js",
@@ -184,6 +186,23 @@ const projects = [
     ],
     image: nike,
     source_code_link: "https://nike-store-sigma-liart.vercel.app/",
+  },
+  {
+    name: "Camping App",
+    description:
+      "A Fully Responsive, Modern Camping Application for Invite and Guide you to Best Vacation in the World",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: camping,
+    source_code_link: "https://camping-app-xi.vercel.app/",
   },
 ];
 
