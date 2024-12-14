@@ -13,6 +13,10 @@ import {
   iphone,
   brainwave,
   camping,
+  bootstrap,
+  redux,
+  typescript,
+  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -63,12 +67,28 @@ const technologies = [
     icon: javascript,
   },
   {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
     name: "React JS",
     icon: reactjs,
   },
   {
+    name: "Redux ToolKit",
+    icon: redux,
+  },
+  {
     name: "Tailwind CSS",
     icon: tailwind,
+  },
+  {
+    name: "Bootstrap CSS",
+    icon: bootstrap,
   },
   {
     name: "git",
