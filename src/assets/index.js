@@ -23,6 +23,7 @@ import nodejs from "./tech/nodejs.png";
 import instant from "./company/instant.jpg";
 import criavz from "./company/criavz.webp";
 
+import nextGenShop from "./NextGenShop.png";
 import nike from "./nike.png";
 import iphone from "./iphone.png";
 import brainwave from "./brainwave.png";
@@ -55,4 +56,5 @@ export {
   brainwave,
   camping,
   bootstrap,
+  nextGenShop,
 };

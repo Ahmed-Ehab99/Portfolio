@@ -17,6 +17,7 @@ import {
   redux,
   typescript,
   threejs,
+  nextGenShop,
 } from "../assets";
 
 export const navLinks = [
@@ -153,6 +154,43 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "NextGenShop",
+    description:
+      "A Modern E-Commerce Application with many features like dark-mode, logIn, signUp, LogOut, search input for search about product, filtring in shop page and cart sheet with optimistic updates",
+    tags: [
+      {
+        name: "Next.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React-Hook-Form",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "red-text-gradient",
+      },
+      {
+        name: "T3 ENV",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Tanstack Query",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "green-text-gradient",
+      },
+    ],
+    image: nextGenShop,
+    source_code_link: "https://next-gen-shop.vercel.app/",
+  },
   {
     name: "Iphone Store",
     description:
