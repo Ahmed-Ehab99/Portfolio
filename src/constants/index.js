@@ -18,6 +18,7 @@ import {
   typescript,
   threejs,
   nextGenShop,
+  cryptoVerce,
 } from "../assets";
 
 export const navLinks = [
@@ -261,6 +262,27 @@ const projects = [
     ],
     image: camping,
     source_code_link: "https://camping-app-xi.vercel.app/",
+  },
+  {
+    name: "CryptoVerce",
+    description:
+      "A Fully Responsive website for crypto news and statistics with api from rapid api and managing state with redux toolkit",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Redux Toolkit",
+        color: "green-text-gradient",
+      },
+    ],
+    image: cryptoVerce,
+    source_code_link: "https://crypto-verce-two.vercel.app/",
   },
 ];
 

@@ -28,6 +28,7 @@ import nike from "./nike.png";
 import iphone from "./iphone.png";
 import brainwave from "./brainwave.png";
 import camping from "./Camping.png";
+import cryptoVerce from "./cryptoVerce.png";
 
 export {
   logo,
@@ -57,4 +58,5 @@ export {
   camping,
   bootstrap,
   nextGenShop,
+  cryptoVerce,
 };
