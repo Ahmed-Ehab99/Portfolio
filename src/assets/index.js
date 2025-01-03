@@ -29,6 +29,7 @@ import iphone from "./iphone.png";
 import brainwave from "./brainwave.png";
 import camping from "./Camping.png";
 import cryptoVerce from "./cryptoVerce.png";
+import awwwards from "./awwwards.png";
 
 export {
   logo,
@@ -59,4 +60,5 @@ export {
   bootstrap,
   nextGenShop,
   cryptoVerce,
+  awwwards,
 };

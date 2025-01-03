@@ -19,6 +19,7 @@ import {
   threejs,
   nextGenShop,
   cryptoVerce,
+  awwwards,
 } from "../assets";
 
 export const navLinks = [
@@ -191,6 +192,27 @@ const projects = [
     ],
     image: nextGenShop,
     source_code_link: "https://next-gen-shop.vercel.app/",
+  },
+  {
+    name: "Awwwards",
+    description:
+      "Amazing Gaming Landing with an amazing animation and modern user interface including some videos, audios and clip paths with some helps from react-icons and uiverse and react-use.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "GSAP",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: awwwards,
+    source_code_link: "https://awwwards-silk.vercel.app/",
   },
   {
     name: "Iphone Store",
