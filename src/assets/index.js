@@ -22,6 +22,7 @@ import nodejs from "./tech/nodejs.png";
 
 import instant from "./company/instant.jpg";
 import criavz from "./company/criavz.webp";
+import blackstone from "./company/blackstoneeit_logo.jpeg";
 
 import nextGenShop from "./NextGenShop.png";
 import nike from "./nike.png";
@@ -30,6 +31,7 @@ import brainwave from "./brainwave.png";
 import camping from "./Camping.png";
 import cryptoVerce from "./cryptoVerce.png";
 import awwwards from "./awwwards.png";
+import movie_app from "./movie_app.png";
 
 export {
   logo,
@@ -53,6 +55,7 @@ export {
   threejs,
   instant,
   criavz,
+  blackstone,
   nike,
   iphone,
   brainwave,
@@ -61,4 +64,5 @@ export {
   nextGenShop,
   cryptoVerce,
   awwwards,
+  movie_app,
 };

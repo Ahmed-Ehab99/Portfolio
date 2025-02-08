@@ -55,7 +55,7 @@ const ProjectCard = ({
             {description}
           </p>
           {isHovered && (
-            <div className="absolute left-0 right-0 bg-black-200 text-white text-sm p-3 rounded-lg mt-2 capitalize" >
+            <div className="absolute left-0 right-0 top-0 bg-black-200 text-white text-sm p-3 rounded-lg mt-2 capitalize" >
               {description}
             </div>
           )}

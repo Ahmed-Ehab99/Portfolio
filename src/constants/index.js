@@ -9,6 +9,7 @@ import {
   git,
   instant,
   criavz,
+  blackstone,
   nike,
   iphone,
   brainwave,
@@ -20,6 +21,7 @@ import {
   nextGenShop,
   cryptoVerce,
   awwwards,
+  movie_app,
 } from "../assets";
 
 export const navLinks = [
@@ -102,6 +104,19 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
+    company_name: "CRIAVZ",
+    icon: criavz,
+    iconBg: "#383E56",
+    date: "November 2023 - November 2023",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "React.js Developer",
     company_name: "Instant Software Solutions",
     icon: instant,
     iconBg: "#383E56",
@@ -114,14 +129,14 @@ const experiences = [
     ],
   },
   {
-    title: "React.js Developer",
-    company_name: "CRIAVZ",
-    icon: criavz,
+    title: "Angular.js Developer",
+    company_name: "BlackStone.eit",
+    icon: blackstone,
     iconBg: "#383E56",
-    date: "November 2023 - November 2023",
+    date: "September 2024 - December 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing and maintaining a portfolio for the company using Angular.js, SASS, TypeScript and other related technologies.",
+      "Collaborating with cross-functional teams including designers, backend developers, testing team and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
@@ -192,6 +207,27 @@ const projects = [
     ],
     image: nextGenShop,
     source_code_link: "https://next-gen-shop.vercel.app/",
+  },
+  {
+    name: "Movie App",
+    description:
+      "A simple movie application allow user to show top 5 movies that other users search about them, and also user can search for movies and show details about them. with some help from react-use library to delay fetching movies until user stop typing (useDebounce). finally i use appwrite as backend to store count of searching of movies to display top movies section.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AppWrite",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "green-text-gradient",
+      },
+    ],
+    image: movie_app,
+    source_code_link: "https://movie-app-533o.vercel.app/",
   },
   {
     name: "Awwwards",
