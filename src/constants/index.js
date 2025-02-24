@@ -5,6 +5,7 @@ import {
   html,
   css,
   reactjs,
+  nextjs,
   tailwind,
   git,
   instant,
@@ -17,11 +18,14 @@ import {
   bootstrap,
   redux,
   typescript,
+  sanity,
+  strapi,
   threejs,
   nextGenShop,
   cryptoVerce,
   awwwards,
   movie_app,
+  shoper,
 } from "../assets";
 
 export const navLinks = [
@@ -84,6 +88,10 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "Next JS",
+    icon: nextjs,
+  },
+  {
     name: "Redux ToolKit",
     icon: redux,
   },
@@ -96,8 +104,16 @@ const technologies = [
     icon: bootstrap,
   },
   {
-    name: "git",
+    name: "GIT",
     icon: git,
+  },
+  {
+    name: "Sanity CMS",
+    icon: sanity,
+  },
+  {
+    name: "Strapi CMS",
+    icon: strapi,
   },
 ];
 
@@ -207,6 +223,43 @@ const projects = [
     ],
     image: nextGenShop,
     source_code_link: "https://next-gen-shop.vercel.app/",
+  },
+  {
+    name: "Shoper",
+    description:
+      "A complete e-commerce application. including smoth UI, authentication using clerk, search input for search about products, selecting category, basket page, orders page and many more features. some technologies used: zustand state management to hande basket operations, sanity CMS backend and stripe for payment.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Sanity CMS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Framer Motion",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Zustand",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Stripe",
+        color: "purple-text-gradient",
+      },
+    ],
+    image: shoper,
+    source_code_link: "https://shoper-ecommerce.vercel.app/",
   },
   {
     name: "Movie App",

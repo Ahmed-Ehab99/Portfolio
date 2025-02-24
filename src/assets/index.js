@@ -10,8 +10,11 @@ import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import reactjs from "./tech/reactjs.png";
+import nextjs from "./tech/nextjs.png";
 import redux from "./tech/redux.png";
+import sanity from "./tech/sanity.png";
 import tailwind from "./tech/tailwind.png";
+import strapi from "./tech/strapi.png";
 import bootstrap from "./tech/bootstrap.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
@@ -32,6 +35,7 @@ import camping from "./Camping.png";
 import cryptoVerce from "./cryptoVerce.png";
 import awwwards from "./awwwards.png";
 import movie_app from "./movie_app.png";
+import shoper from "./shoper.png";
 
 export {
   logo,
@@ -49,7 +53,10 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  nextjs,
   redux,
+  sanity,
+  strapi,
   tailwind,
   typescript,
   threejs,
@@ -65,4 +72,5 @@ export {
   cryptoVerce,
   awwwards,
   movie_app,
+  shoper,
 };
