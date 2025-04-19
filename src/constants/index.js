@@ -26,6 +26,7 @@ import {
   awwwards,
   movie_app,
   shoper,
+  furnitureShop,
 } from "../assets";
 
 export const navLinks = [
@@ -119,7 +120,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
+    title: "Frontend Developer",
     company_name: "CRIAVZ",
     icon: criavz,
     iconBg: "#383E56",
@@ -132,7 +133,7 @@ const experiences = [
     ],
   },
   {
-    title: "React.js Developer",
+    title: "Frontend Developer",
     company_name: "Instant Software Solutions",
     icon: instant,
     iconBg: "#383E56",
@@ -145,7 +146,7 @@ const experiences = [
     ],
   },
   {
-    title: "Angular.js Developer",
+    title: "Frontend Developer",
     company_name: "BlackStone.eit",
     icon: blackstone,
     iconBg: "#383E56",
@@ -162,7 +163,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Ahmed proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -170,7 +171,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Ahmed does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -178,7 +179,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Ahmed optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -187,6 +188,43 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Furniture Shop",
+    description:
+      "Built a modern, responsive furniture e-commerce web app using Next.js 15, React 19, and TypeScript. Implemented features like product details, cart management, checkout flow, and user authentication with NextAuth. Utilized Tailwind CSS, ShadCN, and Framer Motion for a polished UI/UX, with full support for dark/light mode and multilingual support via i18next. Integrated React Hook Form and Zod for robust form validation, and TanStack Query for efficient data fetching and caching.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React-Hook-Form",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Zod",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Tanstack Query",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "green-text-gradient",
+      },
+    ],
+    image: furnitureShop,
+    source_code_link: "https://assessment-e-commerce-ooda.vercel.app/",
+  },
   {
     name: "NextGenShop",
     description:
