@@ -27,6 +27,8 @@ import {
   movie_app,
   shoper,
   furnitureShop,
+  hemex,
+  hemexLogo,
 } from "../assets";
 
 export const navLinks = [
@@ -158,6 +160,20 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+  {
+    title: "Frontend Developer",
+    company_name: "HEMEX.AI",
+    icon: hemexLogo,
+    iconBg: "#383E56",
+    date: "March 2025 - Until Now",
+    points: [
+      "Designed, developed, and maintained multiple portals and dashboards, including Parent, Student, Instructor, and Admin, using React.js, Next.js, TypeScript, Tailwind CSS, TanStack Query, Zustand, and other modern technologies.",
+      "Implemented a real-time messaging system similar to WhatsApp, enabling sales team to send and receive messages seamlessly, with support for bulk messaging through custom phone number lists.",
+      "Collaborated closely with backend developers and the product owner to deliver high-quality, scalable, and user-friendly solutions.",
+      "Built reusable components, optimized state management, and ensured responsive design with cross-browser compatibility.",
+      "Contributed to enhancing user experience and performance across all platforms by applying best practices in frontend development.",
+    ],
+  },
 ];
 
 const testimonials = [
@@ -188,6 +204,43 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "HEMEX Landing Page",
+    description:
+      "Built a modern, responsive landing page for company using React.js, Shadcn, React Hook Form, Tanstack Query, ZOD, Zustand, TypeScript and some help from react bits. Implemented features like videos carousel, login and sign up logic, whatsapp contact, alot of animations. Utilized Tailwind CSS, ShadCN, and Framer Motion for a polished UI/UX. Integrated React Hook Form and Zod for robust form validation, and TanStack Query for efficient data fetching and caching.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React-Hook-Form",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Zod",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Tanstack Query",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Framer Motion",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: hemex,
+    source_code_link: "https://hemex.ai/",
+  },
   {
     name: "Furniture Shop",
     description:

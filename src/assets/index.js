@@ -26,6 +26,7 @@ import nodejs from "./tech/nodejs.png";
 import instant from "./company/instant.jpg";
 import criavz from "./company/criavz.webp";
 import blackstone from "./company/blackstoneeit_logo.jpeg";
+import hemexLogo from "./company/hemex.jpg";
 
 import nextGenShop from "./NextGenShop.png";
 import nike from "./nike.png";
@@ -37,6 +38,7 @@ import awwwards from "./awwwards.png";
 import movie_app from "./movie_app.png";
 import shoper from "./shoper.png";
 import furnitureShop from "./FurnitureShop.png";
+import hemex from "./HEMEX.png";
 
 export {
   logo,
@@ -64,6 +66,8 @@ export {
   instant,
   criavz,
   blackstone,
+  hemex,
+  hemexLogo,
   nike,
   iphone,
   brainwave,
