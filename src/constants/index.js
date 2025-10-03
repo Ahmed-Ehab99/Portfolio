@@ -26,7 +26,6 @@ import {
   awwwards,
   movie_app,
   shoper,
-  furnitureShop,
   hemex,
   hemexLogo,
 } from "../assets";
@@ -244,43 +243,6 @@ const projects = [
     ],
     image: hemex,
     source_code_link: "https://hemex.ai/",
-  },
-  {
-    name: "Furniture Shop",
-    description:
-      "Built a modern, responsive furniture e-commerce web app using Next.js 15, React 19, and TypeScript. Implemented features like product details, cart management, checkout flow, and user authentication with NextAuth. Utilized Tailwind CSS, ShadCN, and Framer Motion for a polished UI/UX, with full support for dark/light mode and multilingual support via i18next. Integrated React Hook Form and Zod for robust form validation, and TanStack Query for efficient data fetching and caching.",
-    tags: [
-      {
-        name: "Next.js",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "React.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "React-Hook-Form",
-        color: "purple-text-gradient",
-      },
-      {
-        name: "Typescript",
-        color: "red-text-gradient",
-      },
-      {
-        name: "Zod",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "Tanstack Query",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "green-text-gradient",
-      },
-    ],
-    image: furnitureShop,
-    source_code_link: "https://assessment-e-commerce-ooda.vercel.app/",
   },
   {
     name: "NextGenShop",

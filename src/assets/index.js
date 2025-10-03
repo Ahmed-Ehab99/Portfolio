@@ -37,7 +37,6 @@ import cryptoVerce from "./cryptoVerce.png";
 import awwwards from "./awwwards.png";
 import movie_app from "./movie_app.png";
 import shoper from "./shoper.png";
-import furnitureShop from "./FurnitureShop.png";
 import hemex from "./HEMEX.png";
 
 export {
@@ -78,5 +77,4 @@ export {
   awwwards,
   movie_app,
   shoper,
-  furnitureShop,
 };
