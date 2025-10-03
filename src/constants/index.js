@@ -52,12 +52,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Performance Optimization",
     icon: web,
   },
   {
     title: "React Framwork",
     icon: reactjs,
+  },
+  {
+    title: "Next Framwork",
+    icon: nextjs,
   },
   {
     title: "Fully Responsive Apps",
@@ -165,7 +169,7 @@ const experiences = [
     company_name: "HEMEX.AI",
     icon: hemexLogo,
     iconBg: "#383E56",
-    date: "March 2025 - Until Now",
+    date: "March 2025 - Sept 2025",
     points: [
       "Designed, developed, and maintained multiple portals and dashboards, including Parent, Student, Instructor, and Admin, using React.js, Next.js, TypeScript, Tailwind CSS, TanStack Query, Zustand, and other modern technologies.",
       "Implemented a real-time messaging system similar to WhatsApp, enabling sales team to send and receive messages seamlessly, with support for bulk messaging through custom phone number lists.",
