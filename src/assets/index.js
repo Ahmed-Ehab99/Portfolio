@@ -38,6 +38,7 @@ import awwwards from "./awwwards.png";
 import movie_app from "./movie_app.png";
 import shoper from "./shoper.png";
 import hemex from "./HEMEX.png";
+import imaginify from "./imaginify.png";
 
 export {
   logo,
@@ -46,6 +47,7 @@ export {
   vercel,
   menu,
   close,
+  imaginify,
   css,
   docker,
   figma,

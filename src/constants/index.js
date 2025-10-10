@@ -28,6 +28,7 @@ import {
   shoper,
   hemex,
   hemexLogo,
+  imaginify,
 } from "../assets";
 
 export const navLinks = [
@@ -55,7 +56,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Framwork",
+    title: "React Library",
     icon: reactjs,
   },
   {
@@ -243,6 +244,43 @@ const projects = [
     ],
     image: hemex,
     source_code_link: "https://hemex.ai/",
+  },
+  {
+    name: "Imaginify SAAS App",
+    description:
+      "An AI image SaaS platform that excels in image processing capabilities, integrates a secure payment infrastructure, offers advanced image search functionalities, and supports multiple AI features, including image restoration, recoloring, object removal, generative filling, and background removal.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "red-text-gradient",
+      },
+      {
+        name: "MongoDb",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Mongoose",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Stripe",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Cloudinary",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: imaginify,
+    source_code_link: "https://imaginify-six-gray.vercel.app/",
   },
   {
     name: "NextGenShop",
