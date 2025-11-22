@@ -1,34 +1,30 @@
 import {
-  responsive,
-  web,
-  javascript,
-  html,
-  css,
-  reactjs,
-  nextjs,
-  tailwind,
-  git,
-  instant,
-  criavz,
+  awwwards,
   blackstone,
-  nike,
-  iphone,
   brainwave,
   camping,
-  bootstrap,
-  redux,
-  typescript,
-  sanity,
-  strapi,
-  threejs,
-  nextGenShop,
+  criavz,
   cryptoVerce,
-  awwwards,
-  movie_app,
-  shoper,
+  css,
+  git,
   hemex,
   hemexLogo,
+  html,
   imaginify,
+  instant,
+  iphone,
+  javascript,
+  movie_app,
+  nextGenShop,
+  nextjs,
+  nike,
+  reactjs,
+  redux,
+  responsive,
+  shoper,
+  tailwind,
+  typescript,
+  web,
 } from "../assets";
 
 export const navLinks = [
@@ -79,16 +75,16 @@ const technologies = [
     icon: css,
   },
   {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
     name: "JavaScript",
     icon: javascript,
   },
   {
     name: "TypeScript",
     icon: typescript,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
   },
   {
     name: "React JS",
@@ -103,24 +99,8 @@ const technologies = [
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Bootstrap CSS",
-    icon: bootstrap,
-  },
-  {
     name: "GIT",
     icon: git,
-  },
-  {
-    name: "Sanity CMS",
-    icon: sanity,
-  },
-  {
-    name: "Strapi CMS",
-    icon: strapi,
   },
 ];
 
@@ -492,4 +472,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { experiences, projects, services, technologies, testimonials };

@@ -1,82 +1,66 @@
-import logo from "../../public/logo.jpg";
-import responsive from "./responsive.png";
-import web from "./web.png";
-import vercel from "./vercel.svg";
-import menu from "./menu.svg";
+import logo from "./logo.webp";
 import close from "./close.svg";
+import menu from "./menu.svg";
+import responsive from "./responsive.webp";
+import vercel from "./vercel.svg";
+import web from "./web.webp";
 
-import css from "./tech/css.png";
+import css from "./tech/css.webp";
 import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import reactjs from "./tech/reactjs.png";
-import nextjs from "./tech/nextjs.png";
-import redux from "./tech/redux.png";
-import sanity from "./tech/sanity.png";
-import tailwind from "./tech/tailwind.png";
-import strapi from "./tech/strapi.png";
-import bootstrap from "./tech/bootstrap.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
+import html from "./tech/html.webp";
+import javascript from "./tech/javascript.webp";
+import nextjs from "./tech/nextjs.webp";
+import reactjs from "./tech/reactjs.webp";
+import redux from "./tech/redux.webp";
+import tailwind from "./tech/tailwind.webp";
+import typescript from "./tech/typescript.webp";
 
-import instant from "./company/instant.jpg";
+import blackstone from "./company/blackstoneeit_logo.webp";
 import criavz from "./company/criavz.webp";
-import blackstone from "./company/blackstoneeit_logo.jpeg";
-import hemexLogo from "./company/hemex.jpg";
+import hemexLogo from "./company/hemex.webp";
+import instant from "./company/instant.webp";
 
-import nextGenShop from "./NextGenShop.png";
-import nike from "./nike.png";
-import iphone from "./iphone.png";
-import brainwave from "./brainwave.png";
-import camping from "./Camping.png";
-import cryptoVerce from "./cryptoVerce.png";
-import awwwards from "./awwwards.png";
-import movie_app from "./movie_app.png";
-import shoper from "./shoper.png";
-import hemex from "./HEMEX.png";
-import imaginify from "./imaginify.png";
+import awwwards from "./awwwards.webp";
+import brainwave from "./brainwave.webp";
+import camping from "./Camping.webp";
+import cryptoVerce from "./cryptoVerce.webp";
+import hemex from "./HEMEX.webp";
+import imaginify from "./imaginify.webp";
+import iphone from "./iphone.webp";
+import movie_app from "./movie_app.webp";
+import nextGenShop from "./NextGenShop.webp";
+import nike from "./nike.webp";
+import shoper from "./shoper.webp";
 
 export {
-  logo,
-  responsive,
-  web,
-  vercel,
-  menu,
-  close,
-  imaginify,
-  css,
-  docker,
-  figma,
-  git,
-  html,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  nextjs,
-  redux,
-  sanity,
-  strapi,
-  tailwind,
-  typescript,
-  threejs,
-  instant,
-  criavz,
+  awwwards,
   blackstone,
-  hemex,
-  hemexLogo,
-  nike,
-  iphone,
   brainwave,
   camping,
-  bootstrap,
-  nextGenShop,
+  close,
+  criavz,
   cryptoVerce,
-  awwwards,
+  css,
+  git,
+  hemex,
+  hemexLogo,
+  html,
+  imaginify,
+  instant,
+  iphone,
+  javascript,
+  logo,
+  menu,
   movie_app,
+  nextGenShop,
+  nextjs,
+  nike,
+  reactjs,
+  redux,
+  responsive,
   shoper,
+  tailwind,
+  typescript,
+  vercel,
+  web,
 };
